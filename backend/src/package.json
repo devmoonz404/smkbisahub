@@ -1,0 +1,17 @@
+{
+  "name": "smk-bisa-hub-backend",
+  "version": "1.0.0",
+  "description": "Backend API LKS Jatim Cloud Computing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.0.0",
+    "@aws-sdk/client-sns": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  }
+}
